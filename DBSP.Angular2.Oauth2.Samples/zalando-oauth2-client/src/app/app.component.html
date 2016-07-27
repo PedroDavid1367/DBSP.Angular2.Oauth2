@@ -7,4 +7,21 @@
 <span dbsp-highlight>Testing dbsp-highlight attribute directive</span>
 <br />
 <br />
+<div>
+  <!--(click)="color='green'" Is not a good practice, it should be in the component class.  -->
+  <input type="radio" name="colors" (click)="color='green'" />Green
+  <input type="radio" name="colors" (click)="color='beige'" />Beige
+  <input type="radio" name="colors" (click)="color='blue'" />Blue
+  <br />
+  <br />
+  <br />
+  <div>
+    <h1 class="text-center" [dbsp-highlight]="color">Highlight me</h1>
+    <h1 class="text-center" [dbsp-highlight]="color" 
+        [defaultColor]="'cyan'">Highlight me</h1>
+  </div>
+  <br />
+  <br />
+  <br />
+</div>
 <dbsp-note></dbsp-note>
