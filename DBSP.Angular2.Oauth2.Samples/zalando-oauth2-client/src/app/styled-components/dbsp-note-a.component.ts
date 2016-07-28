@@ -5,7 +5,7 @@ import { FORM_DIRECTIVES } from '@angular/forms';
 import { ACCORDION_DIRECTIVES } from 'ng2-bootstrap';
 
 @Component({
-  selector: 'accordion-demo',
+  selector: 'dbsp-note-a',
   template: `
   <p>
     <button type="button" class="btn btn-primary btn-sm"
