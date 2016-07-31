@@ -1,4 +1,10 @@
 <h1 class="text-center">My App with Webpack</h1>
 <br />
-<dbsp-note-a></dbsp-note-a>
-<dbsp-note-b></dbsp-note-b>
+
+<a [routerLink]="['/home']">To oauth-test component</a>
+<a [routerLink]="['/callback']">To callback component</a>
+
+<div class="container">
+  <h3 class="text-center">Router content comes below</h3>
+  <router-outlet></router-outlet>
+</div>
