@@ -103,6 +103,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="zalando-oauth2-client\package.json" />
+    <Content Include="zalando-oauth2-client\src\app\component-styles\style-a.css" />
+    <Content Include="zalando-oauth2-client\src\app\component-styles\style-b.css" />
+    <Content Include="zalando-oauth2-client\src\app\jquery-components\sample.js" />
     <Content Include="zalando-oauth2-client\tsconfig.json" />
     <Content Include="zalando-oauth2-client\typings.json" />
     <Content Include="zalando-oauth2-client\node_modules\%40angular\common\esm\index.js.map" />
@@ -10692,6 +10695,10 @@
     <TypeScriptCompile Include="zalando-oauth2-client\node_modules\zone.js\lib\zone-spec\wtf.ts" />
     <TypeScriptCompile Include="zalando-oauth2-client\node_modules\zone.js\lib\zone.ts" />
     <TypeScriptCompile Include="zalando-oauth2-client\src\app\app.component.ts" />
+    <TypeScriptCompile Include="zalando-oauth2-client\src\app\attribute-directives\dbsp-highlight.directive.ts" />
+    <TypeScriptCompile Include="zalando-oauth2-client\src\app\component-styles\dbsp-styling-parent.component.ts" />
+    <TypeScriptCompile Include="zalando-oauth2-client\src\app\jquery-components\dbsp-note.component.ts" />
+    <TypeScriptCompile Include="zalando-oauth2-client\src\app\jquery-components\dbsp-random-note.component.ts" />
     <TypeScriptCompile Include="zalando-oauth2-client\src\main.ts" />
   </ItemGroup>
   <ItemGroup>
